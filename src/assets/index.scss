@@ -1,9 +1,19 @@
 @import "fonts";
 @import "variables";
 @import "mixin";
+@import "nav-bar";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.main-layout{
+  width: 100%;
 }
